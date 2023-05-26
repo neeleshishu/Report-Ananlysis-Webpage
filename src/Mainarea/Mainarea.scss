@@ -1,0 +1,90 @@
+.mainarea{
+    margin: 2rem;
+
+    .upperarea{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-size: revert;
+    }
+    
+
+    .rightside{
+        display: flex;
+
+    .searchbar{
+        display: flex;
+        border: 1px solid;
+        width: 15rem;
+        height: 2rem;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 0.1rem;
+        padding-left: 1.2rem;
+
+        input{
+            border: none;
+        }
+        
+    }
+
+    img{
+        width: 2.5rem;
+        object-fit: cover;
+        height: 2.5rem;
+        border-radius: 50%;
+        margin: 0 1rem;
+        cursor: pointer;
+        transition: all 0.3s linear;
+
+    }
+
+    img:hover{
+        transform: scale(1.5);
+      box-shadow: 1px 2px 4px -1px;
+      }
+}
+}
+
+.boxessection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .boxes{
+        position: relative;
+        height: 6.2rem;
+        width: 13rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0;
+        padding: 3rem;
+        border-radius: 1rem;
+        transition: all 0.3s linear;
+
+        p{
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        .icons{
+            position: absolute;
+            top: 5px;
+            right: 7px;
+        }
+        .Amounts{
+            font-size: x-large;
+            font-weight: bold;
+        }
+    }
+
+    .boxes:hover{
+        transform: translateY(-1rem);
+        box-shadow: 2px 2px 5px -2px;
+    }
+}
+
+}

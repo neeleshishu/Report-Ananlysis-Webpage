@@ -1,0 +1,56 @@
+.mainblock{
+  background-color: dodgerblue;
+  height: 100vh;
+  width: 100vw;
+
+  .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    img{
+      height: 12rem;
+      width: 12rem;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: all 0.2s linear;
+      
+    }
+
+    img:hover{
+      transform: scale(1.5);
+    box-shadow: 1px 2px 4px -1px;
+    }
+  }
+
+  .mainheading{
+    text-align: center;
+    h1{
+      margin: 0;
+      padding: 0;
+      font-family: revert;
+      color: white;
+      font-size: xx-large;
+    }
+  }
+
+  .skills{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .skill{
+      align-items: center;
+    height: 9rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-bottom: 1rem solid rgb(0, 253, 198);
+    }
+  }
+}

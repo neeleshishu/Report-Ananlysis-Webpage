@@ -1,0 +1,49 @@
+
+
+.sidebar{
+    color: white;
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    margin: 1rem 2rem;
+    border-radius: 3rem;
+    position:fixed ;
+
+    h1{
+        //text-align: center;
+        padding:2rem 3rem;
+        font-size: xxx-large;
+        font-family: sans-serif;
+    }
+    
+      .options{
+
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            margin: 1rem;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+
+          span{
+            padding: 0 0 0 2rem;
+           }
+          p{
+            margin: 0.5rem;
+            padding: 0 1rem;
+          }
+        }
+
+      }
+
+      .footer{
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+} 
+
+
+
+
